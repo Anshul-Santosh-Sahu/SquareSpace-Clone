@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="back-link">
+            <a href="index.html">&lt; Back</a>
+        </div>
+        <div class="login-box">
+            <h2>Login to Squarespace</h2>
+            <form>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="name@example.com" required>
+                <label for="password">Password</label>
+                <div class="password-field">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <i class="fa fa-eye" id="togglePassword"></i>
+                </div>
+                
+                
+                <button type="submit" class="login-submit">Log In</button>
+            </form>
+            <div class="alternate-login">
+                <p>OR</p>
+                <button class="google-login">Continue with Google</button>
+                <button class="apple-login">Continue with Apple</button>
+                <button class="facebook-login">Continue with Facebook</button>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="#">Can't Log In?</a>
+            <p>Secure Login with reCAPTCHA. Subject to Google <a href="#">Terms & Privacy</a>.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
